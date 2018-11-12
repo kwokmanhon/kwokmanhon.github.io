@@ -1,0 +1,23 @@
+#hero-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 62vw;
+}
+
+#top-navigation {
+    display: flex;
+    position: absolute;
+}
+
+#logo {
+    align-self: flex-start;
+}
