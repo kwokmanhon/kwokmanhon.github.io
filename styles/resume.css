@@ -27,6 +27,9 @@ footer img {
     width: 150px;
     margin-bottom: 10px;
 }
+#top-navigation ul #resumepage {
+    font-weight: 700;
+}
 #resume {
     margin-top: 10vh;
     height: 70vh;
