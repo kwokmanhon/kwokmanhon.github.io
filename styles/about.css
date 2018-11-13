@@ -181,3 +181,9 @@ footer img {
     #jp { order:2; }
     #top-navigation ul { order: 3; }
 }
+
+@media only screen and (max-width: 500px) {
+    #hero-container {
+        height: 45vh;
+    }
+}
