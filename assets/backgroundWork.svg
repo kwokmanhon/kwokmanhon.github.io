@@ -1,0 +1,49 @@
+<svg width="1440" height="2449" viewBox="0 0 1440 2449" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M733.009 1990.17C867.096 1990.17 975.795 2098.87 975.795 2232.96C975.795 2276.17 964.502 2316.76 944.706 2351.91L733.009 2674.65L521.312 2351.91C501.516 2316.76 490.223 2276.17 490.223 2232.96C490.223 2098.87 598.922 1990.17 733.009 1990.17Z" fill="#94FFD9"/>
+<g filter="url(#filter0_bd)">
+<path d="M727.786 1841C861.873 1841 970.572 1949.7 970.572 2083.79C970.572 2127.01 959.279 2167.59 939.483 2202.74L727.786 2525.48L516.089 2202.74C496.293 2167.59 485 2127.01 485 2083.79C485 1949.7 593.699 1841 727.786 1841Z" fill="#FFC0C0" fill-opacity="0.83"/>
+</g>
+<path d="M74.7314 1211.32C-20.0825 1116.51 -20.0825 962.787 74.7314 867.973C105.292 837.412 141.973 816.702 180.829 805.842L558.733 727.323L480.213 1105.23C469.354 1144.08 448.643 1180.76 418.083 1211.32C323.269 1306.14 169.545 1306.14 74.7314 1211.32Z" fill="#94FFD9"/>
+<g filter="url(#filter1_bd)">
+<path d="M-75.3243 1206.68C-170.138 1111.86 -170.138 958.139 -75.3243 863.326C-44.7636 832.765 -8.08265 812.055 30.7732 801.195L408.677 722.676L330.158 1100.58C319.298 1139.44 298.588 1176.12 268.027 1206.68C173.213 1301.49 19.4896 1301.49 -75.3243 1206.68Z" fill="#FFC0C0" fill-opacity="0.83"/>
+</g>
+<path d="M1491.73 129.515C1403.46 41.2481 1260.35 41.248 1172.08 129.515C1143.63 157.965 1124.35 192.113 1114.24 228.286L1041.15 580.094L1392.96 506.997C1429.13 496.887 1463.28 477.607 1491.73 449.157C1579.99 360.89 1579.99 217.781 1491.73 129.515Z" fill="#94FFD9"/>
+<g filter="url(#filter2_bd)">
+<path d="M1487.4 -10.1791C1399.13 -98.4458 1256.03 -98.4458 1167.76 -10.1791C1139.31 18.2713 1120.03 52.4193 1109.92 88.592L1036.82 440.4L1388.63 367.303C1424.8 357.193 1458.95 337.913 1487.4 309.463C1575.67 221.196 1575.67 78.0876 1487.4 -10.1791Z" fill="#FFC0C0" fill-opacity="0.83"/>
+</g>
+<defs>
+<filter id="filter0_bd" x="481" y="1837" width="493.572" height="696.481" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_bd" x="-251" y="547" width="835.352" height="839.352" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_bd" x="873" y="-174" width="778.221" height="782.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

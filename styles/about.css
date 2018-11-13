@@ -1,10 +1,8 @@
 html {
     max-width: 100vw;
     font-family: 'M PLUS 1p', sans-serif;
-    background-image: url("../assets/background3.svg"); 
+    background-image: url("../assets/backgroundAbout.svg"); 
     background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
 }
 a {
     text-decoration: none;
@@ -13,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    align-items: center;
 }
 footer {
     display: flex;
@@ -38,11 +37,9 @@ footer img {
     justify-content: center;
     align-items: center;
 }
-
-#hero-img {
+#hero-About {
     display: block;
-    margin: 0 auto;
-    width: 62vw;
+    width: 40vw;
 }
 #top-navigation {
     display: flex;
@@ -79,6 +76,9 @@ footer img {
     font-weight: 400;
     color: #131173;
 }
+#top-navigation ul #about {
+    font-weight: 700;
+}
 #logo {
     margin-left: 7.5vw; 
     height: 50px;
@@ -104,58 +104,48 @@ footer img {
     transition: ease 200ms;
 }
 /* THUMBNAIL CONTENTS */
-#thumbnail-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    width: 80vw;
-    margin-left: 10vw;
-}
-.thumbnail-box {
+#content-body {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid #BDBDBD; */
-    /* height: 49.9vw;
-    width: 49.9vw; */
-    height: 39.5vw;
-    width: 39.5vw;
-    margin-bottom: 0.5vw;
-    background-size: cover;
-    box-shadow: 0 4px 4px #bdbdbd;
+    max-width:80vw;
+    flex-flow: row wrap;
 }
-.thumbnail-box:nth-child(1) {
-    background-image: url("../assets/bobuyCover.png");
-    background-position: center;
+#aboutmeImage {
+    margin-right: 2vw;
+    width: 43%;
+    height: auto;
+    order: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
 }
-.thumbnail-box:nth-child(2) {
-    background-image: url("../assets/bobuyEvaluationCover.png");
-    background-position: center;
+#content-body h2 {
+    margin-left: 2vw;
+    font-weight: 300;
+    font-size: 16px;
+    width: 43%;
+    order: 2;
 }
-.thumbnail-box:nth-child(3) {
-    background-image: url("../assets/bespokeDesignCover.png");
+#content-body h3 {
+    margin-right: 2vw;
+    font-weight: 300;
+    font-size: 16px;
+    width: 43%;
+    order: 3;
 }
-.thumbnail-box:nth-child(4) {
-    background-image: url("../assets/interactionDesign1Cover.JPG");
+#experiencesImage {
+    margin-left: 2vw;
+    width: 43%;
+    height: auto;
+    order: 4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
 }
-.thumbnail-box:nth-child(5) {
-    background-image: url("../assets/interactionDesign2Cover.png");
-    background-position: center;
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5vh;
 }
-.thumbnail-box:nth-child(6) {
-    background-image: url("../assets/tomtomCurferCover.png");
-    background-position: center;
-}
-.thumbnail-box:nth-child(7) {
-    background-image: url("../assets/animationProjectCover.jpg");
-    background-position: center;
-}
-.thumbnail-box:nth-child(8) {
-    background-image: url("../assets/editorialCover.jpg");
-    background-position: center;
-}
-
 
 /*-- About Page */
 
@@ -174,8 +164,3 @@ footer img {
     font-size: 24px;
 } */
 
-#hero-About {
-    display: block;
-    margin-top: -20vh;
-    width: 40vw;
-}
