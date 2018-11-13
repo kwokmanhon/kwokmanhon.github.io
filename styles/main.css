@@ -27,6 +27,7 @@ footer img {
     width: 150px;
     margin-bottom: 10px;
 }
+
 #hero-container {
     /*position: absolute;*/
     height: 100vh;
@@ -155,7 +156,6 @@ footer img {
     background-image: url("../assets/editorialCover.jpg");
     background-position: center;
 }
-
 
 /*-- About Page */
 
