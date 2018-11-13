@@ -183,3 +183,21 @@ footer img {
     margin-top: -20vh;
     width: 40vw;
 }
+
+@media only screen and (max-width: 900px) {
+    #top-navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100vw;
+    }
+    #hero-img {
+        width: 95vw;
+    }
+    #logo { order: 1 ; }
+    #en { order:2; }
+    #jp { order:2; }
+    #top-navigation ul { order: 3; }
+}
